@@ -20,6 +20,7 @@ public class StudentSearch {
         throw new Exception( "There is no student with the given name!" );
     }
     // New method for part 3
+    // new comment for part3 as well
     public ArrayList<Student> findAll (ArrayList<Student> students, String name) throws
     Exception {
         ArrayList<Student> result = new ArrayList<Student>();
